@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/my_python_app.git'
+                git branch: 'main', url: 'https://github.com/Vasundhara-Boomi/pytest.git'
             }
         }
         stage('Install Dependencies') {
